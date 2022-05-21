@@ -1,0 +1,1382 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>7f98df486ab7418082220b5bc63b71d8</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="note-this-is-a-sample-solution-for-the-project-projects-will-not-be-graded-on-the-basis-of-how-well-the-submission-matches-this-sample-solution-projects-will-be-graded-on-the-basis-of-the-rubric-only" class="cell markdown">
+<h2>Note: This is a sample solution for the project. Projects will NOT be graded on the basis of how well the submission matches this sample solution. Projects will be graded on the basis of the rubric only.</h2>
+</section>
+<section id="problem-statement" class="cell markdown" id="pp8RPj0v5IsD">
+<h1>Problem Statement</h1>
+<p>An online news portal aims to expand its business by acquiring new subscribers. Every visitor to the website takes certain actions based on their interest. The company plans to analyze these interests and wants to determine whether a new feature will be effective or not. Companies often analyze users' responses to two variants of a product to decide which of the two variants is more effective. This experimental technique is known as a/b testing that is used to determine whether a new feature attracts users based on a chosen metric.</p>
+<p>Suppose you are hired as a Data Scientist in E-news Express. The design team of the company has created a new landing page. You have been assigned the task to decide whether the new landing page is more effective to gather new subscribers. Suppose you randomly selected 100 users and divided them equally into two groups. The old landing page is served to the first group (control group) and the new landing page is served to the second group (treatment group). Various data about the customers in both groups are collected in 'abtest.csv'. Perform the statistical analysis to answer the following questions using the collected data.</p>
+<ol>
+<li><p>Explore the dataset and extract insights using Exploratory Data Analysis.</p></li>
+<li><p>Do the users spend more time on the new landing page than the existing landing page?</p></li>
+<li><p>Is the conversion rate (the proportion of users who visit the landing page and get converted) for the new page greater than the conversion rate for the old page?</p></li>
+<li><p>Does the converted status depend on the preferred language? [Hint: Create a contingency table using the pandas.crosstab() function]</p></li>
+<li><p>Is the time spent on the new page same for the different language users?</p></li>
+</ol>
+<p>*Consider a significance level of 0.05 for all tests.</p>
+<p>The idea behind answering these questions is to decide whether the new page is effective enough to gather new subscribers for the news portal. We will perform the statistical analysis on the collected data to make the business decision.</p>
+</section>
+<section id="data-dictionary" class="cell markdown" id="zVlFWlJ-5K9F">
+<h1>Data Dictionary</h1>
+<ol>
+<li><p>user_id - This represents the user ID of the person visiting the website.</p></li>
+<li><p>group - This represents whether the user belongs to the first group (control) or the second group (treatment).</p></li>
+<li><p>landing_page - This represents whether the landing page is new or old.</p></li>
+<li><p>time_spent_on_the_page - This represents the time (in minutes) spent by the user on the landing page.</p></li>
+<li><p>converted - This represents whether the user gets converted to a subscriber of the news portal or not.</p></li>
+<li><p>language_preferred - This represents the language chosen by the user to view the landing page.</p></li>
+</ol>
+</section>
+<section id="import-all-the-necessary-libraries" class="cell markdown" id="iFOd4NTyGsDK">
+<h2>Import all the necessary libraries</h2>
+</section>
+<div class="cell code" data-execution_count="1" id="bxj7okWaGmBr">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> matplotlib <span class="im">import</span> pyplot <span class="im">as</span> plt</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span></code></pre></div>
+</div>
+<section id="1-explore-the-dataset-and-extract-insights-using-exploratory-data-analysis" class="cell markdown" id="1rPExJLzG12m">
+<h2>1. Explore the dataset and extract insights using Exploratory Data Analysis.</h2>
+</section>
+<section id="exploratory-data-analysis---step-by-step-approach" class="cell markdown" id="_O36JUTCHBH-">
+<h3>Exploratory Data Analysis - Step by step approach</h3>
+<p>Typical Data exploration activity consists of the following steps:</p>
+<ol>
+<li>Importing Data</li>
+<li>Variable Identification</li>
+<li>Variable Transformation/Feature Creation</li>
+<li>Missing value detection</li>
+<li>Univariate Analysis</li>
+<li>Bivariate Analysis</li>
+</ol>
+</section>
+<section id="reading-the-data-into-a-dataframe" class="cell markdown" id="ILjvG_n7YwOy">
+<h3>Reading the Data into a DataFrame</h3>
+</section>
+<div class="cell code" data-execution_count="2" id="ORIKAObgaMQ7">
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">&#39;abtest.csv&#39;</span>)</span></code></pre></div>
+</div>
+<section id="view-the-first-and-last-5-rows-of-the-dataset" class="cell markdown" id="pjEwws2ZWO1b">
+<h3>View the first and last 5 rows of the dataset</h3>
+</section>
+<div class="cell code" data-execution_count="3" data-colab="{&quot;height&quot;:204,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="E8nshIIgWTSS" data-outputId="f207f34f-e7f2-41bb-bda4-4bdd646fd048">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>df.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>user_id</th>
+      <th>group</th>
+      <th>landing_page</th>
+      <th>time_spent_on_the_page</th>
+      <th>converted</th>
+      <th>language_preferred</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>546592</td>
+      <td>control</td>
+      <td>old</td>
+      <td>3.48</td>
+      <td>no</td>
+      <td>Spanish</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>546468</td>
+      <td>treatment</td>
+      <td>new</td>
+      <td>7.13</td>
+      <td>yes</td>
+      <td>English</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>546462</td>
+      <td>treatment</td>
+      <td>new</td>
+      <td>4.40</td>
+      <td>no</td>
+      <td>Spanish</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>546567</td>
+      <td>control</td>
+      <td>old</td>
+      <td>3.02</td>
+      <td>no</td>
+      <td>French</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>546459</td>
+      <td>treatment</td>
+      <td>new</td>
+      <td>4.75</td>
+      <td>yes</td>
+      <td>Spanish</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="4" data-colab="{&quot;height&quot;:204,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="JPsrXY1JWX9v" data-outputId="3cb1d9df-c5c0-4774-cfcb-57302d788a24">
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df.tail()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>user_id</th>
+      <th>group</th>
+      <th>landing_page</th>
+      <th>time_spent_on_the_page</th>
+      <th>converted</th>
+      <th>language_preferred</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>95</th>
+      <td>546446</td>
+      <td>treatment</td>
+      <td>new</td>
+      <td>5.15</td>
+      <td>no</td>
+      <td>Spanish</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>546544</td>
+      <td>control</td>
+      <td>old</td>
+      <td>6.52</td>
+      <td>yes</td>
+      <td>English</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>546472</td>
+      <td>treatment</td>
+      <td>new</td>
+      <td>7.07</td>
+      <td>yes</td>
+      <td>Spanish</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>546481</td>
+      <td>treatment</td>
+      <td>new</td>
+      <td>6.20</td>
+      <td>yes</td>
+      <td>Spanish</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>546483</td>
+      <td>treatment</td>
+      <td>new</td>
+      <td>5.86</td>
+      <td>yes</td>
+      <td>English</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<section id="understand-the-shape-of-the-dataset" class="cell markdown" id="rXhgGDyiWZke">
+<h3>Understand the shape of the dataset</h3>
+</section>
+<div class="cell code" data-execution_count="5" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="7uCR2HmrWe7-" data-outputId="d73e60c1-6f84-4c61-ddb1-d4acae084dfd">
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>df.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<pre><code>(100, 6)</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="ed9noM8FWh_x">
+<ul>
+<li>The dataset has 100 rows and 6 columns.</li>
+</ul>
+</div>
+<section id="check-the-data-types-of-the-columns-for-the-dataset" class="cell markdown" id="UyWWhtbbWk9s">
+<h3>Check the data types of the columns for the dataset</h3>
+</section>
+<div class="cell code" data-execution_count="6" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="Sf5a7CqgWn8u" data-outputId="e2fb52ef-3835-4169-acae-59b112cfe89d">
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 100 entries, 0 to 99
+Data columns (total 6 columns):
+ #   Column                  Non-Null Count  Dtype  
+---  ------                  --------------  -----  
+ 0   user_id                 100 non-null    int64  
+ 1   group                   100 non-null    object 
+ 2   landing_page            100 non-null    object 
+ 3   time_spent_on_the_page  100 non-null    float64
+ 4   converted               100 non-null    object 
+ 5   language_preferred      100 non-null    object 
+dtypes: float64(1), int64(1), object(4)
+memory usage: 4.8+ KB
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="fOnHABzxQj6Q">
+<ul>
+<li><p>There are total 100 non-null observations in each of the columns.</p></li>
+<li><p>There are 6 columns named <strong>'user_id', 'group', 'landing_page', 'time_spent_on_the_page', 'converted', 'language_preferred'</strong> whose data types are <strong>int64, object, object, float64, object, object</strong> respectively.</p></li>
+<li><p>'group', 'landing_page', 'converted', and 'language_preferred' are objects, we can change them to categories.</p></li>
+</ul>
+</div>
+<section id="fixing-the-data-types" class="cell markdown" id="Vy3NP01GWt4D">
+<h3>Fixing the data types</h3>
+</section>
+<div class="cell markdown" id="2uA1RGwtWvqh">
+<p><code>converting "objects" to "category" reduces the space required to store the DataFrame. It also helps in analysis</code></p>
+</div>
+<div class="cell code" data-execution_count="7" id="f5gaALYvXCfE">
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;group&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;group&#39;</span>].astype(<span class="st">&#39;category&#39;</span>)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;landing_page&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;landing_page&#39;</span>].astype(<span class="st">&#39;category&#39;</span>)</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;converted&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;converted&#39;</span>].astype(<span class="st">&#39;category&#39;</span>)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;language_preferred&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;language_preferred&#39;</span>].astype(<span class="st">&#39;category&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="8" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="YdNPNTuSWuvb" data-outputId="1e8b0622-451d-4c60-96b1-441ceadaf4d2">
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>df.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 100 entries, 0 to 99
+Data columns (total 6 columns):
+ #   Column                  Non-Null Count  Dtype   
+---  ------                  --------------  -----   
+ 0   user_id                 100 non-null    int64   
+ 1   group                   100 non-null    category
+ 2   landing_page            100 non-null    category
+ 3   time_spent_on_the_page  100 non-null    float64 
+ 4   converted               100 non-null    category
+ 5   language_preferred      100 non-null    category
+dtypes: category(4), float64(1), int64(1)
+memory usage: 2.5 KB
+</code></pre>
+</div>
+</div>
+<section id="check-for-missing-values" class="cell markdown" id="4uJNS_5QYQPp">
+<h3>Check for missing values</h3>
+</section>
+<div class="cell code" data-execution_count="9" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="UWP1fTeFYPR6" data-outputId="c463b1cf-29c7-4c9f-8812-245450a7d0ec">
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>df.isna().<span class="bu">sum</span>()   <span class="co">#null value check</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+<pre><code>user_id                   0
+group                     0
+landing_page              0
+time_spent_on_the_page    0
+converted                 0
+language_preferred        0
+dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="o6URJp5SYW5w">
+<ul>
+<li>There are no missing values in any of the column</li>
+</ul>
+</div>
+<section id="check-for-duplicates" class="cell markdown">
+<h3>Check for duplicates</h3>
+</section>
+<div class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>df.duplicated().<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="10">
+<pre><code>0</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<ul>
+<li>There are no duplicated entries in the dataset</li>
+</ul>
+</div>
+<section id="five-point-summary-of-continuous-variables" class="cell markdown" id="mruZA7z6YgrW">
+<h3>Five point summary of continuous variables</h3>
+</section>
+<div class="cell code" data-execution_count="11" data-colab="{&quot;height&quot;:80,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="C_WuA23RYkjv" data-outputId="ddb773be-7351-4324-8d09-159c9d181d3a">
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>df.describe().T</span></code></pre></div>
+<div class="output execute_result" data-execution_count="11">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>count</th>
+      <th>mean</th>
+      <th>std</th>
+      <th>min</th>
+      <th>25%</th>
+      <th>50%</th>
+      <th>75%</th>
+      <th>max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>user_id</th>
+      <td>100.0</td>
+      <td>546517.0000</td>
+      <td>52.295779</td>
+      <td>546443.00</td>
+      <td>546467.75</td>
+      <td>546492.500</td>
+      <td>546567.2500</td>
+      <td>546592.00</td>
+    </tr>
+    <tr>
+      <th>time_spent_on_the_page</th>
+      <td>100.0</td>
+      <td>5.3778</td>
+      <td>2.378166</td>
+      <td>0.19</td>
+      <td>3.88</td>
+      <td>5.415</td>
+      <td>7.0225</td>
+      <td>10.71</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown" id="cJE-xbCcYnkg">
+<ul>
+<li>The user_id column contains the user ID of the person visiting the page.</li>
+<li>The maximum time spent on the landing page is less than 11 minutes.</li>
+<li>The mean time spent on the landing page is approximately 5.4 minutes.</li>
+<li>The median time spent on the landing page is approximately 5.4 minutes.</li>
+</ul>
+</div>
+<section id="summary-of-categorical-variables" class="cell markdown" id="NpQdfIcWYqoY">
+<h3>Summary of categorical variables</h3>
+</section>
+<div class="cell code" data-execution_count="12" data-colab="{&quot;height&quot;:204,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="OhKdD77oYuNH" data-outputId="dde1b249-617f-4368-dc48-e2733aec8a76">
+<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>df.describe(include <span class="op">=</span> [<span class="st">&#39;category&#39;</span>]).T</span></code></pre></div>
+<div class="output execute_result" data-execution_count="12">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>count</th>
+      <th>unique</th>
+      <th>top</th>
+      <th>freq</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>group</th>
+      <td>100</td>
+      <td>2</td>
+      <td>treatment</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <th>landing_page</th>
+      <td>100</td>
+      <td>2</td>
+      <td>old</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <th>converted</th>
+      <td>100</td>
+      <td>2</td>
+      <td>yes</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <th>language_preferred</th>
+      <td>100</td>
+      <td>3</td>
+      <td>Spanish</td>
+      <td>34</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="13" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="9HZsw_k4ttHO" data-outputId="32710870-c0e0-4d7c-88b4-8dc9ab06f301">
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;group&#39;</span>].value_counts()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="13">
+<pre><code>treatment    50
+control      50
+Name: group, dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="14" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="m_MUXfW3L6kh" data-outputId="aa057faf-4f82-44df-b859-9b4ebdb82744">
+<div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;landing_page&#39;</span>].value_counts()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="14">
+<pre><code>old    50
+new    50
+Name: landing_page, dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="15" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="ZSL3tclkMM8V" data-outputId="c9f0b94d-0d55-4dfa-a5b4-1a863eb2b493">
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;converted&#39;</span>].value_counts()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="15">
+<pre><code>yes    54
+no     46
+Name: converted, dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="16" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="8J2VXXhoMtlc" data-outputId="6d545ac1-3d36-4ec3-a0a9-b09bf87a9c9f">
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;language_preferred&#39;</span>].value_counts()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="16">
+<pre><code>Spanish    34
+French     34
+English    32
+Name: language_preferred, dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="EFVdy5WmtYug">
+<ul>
+<li>There are 100 unique users.</li>
+<li>There are 2 unique groups - control and treatment. Each group consists of 50 users.</li>
+<li>There are 2 landing_pages - new and old.</li>
+<li>Overall, 54 users get converted and 46 users do not get converted after visiting the landing page.</li>
+<li>There are 3 unique preferred languages - English, French, and Spanish.</li>
+</ul>
+</div>
+<section id="univariate-analysis" class="cell markdown" id="6-ibd3yLNBfb">
+<h3>Univariate Analysis</h3>
+</section>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb26"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># function to plot a boxplot and a histogram along the same scale.</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> histogram_boxplot(data, feature, figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">7</span>), kde<span class="op">=</span><span class="va">False</span>, bins<span class="op">=</span><span class="va">None</span>):</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a><span class="co">    Boxplot and histogram combined</span></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a><span class="co">    data: dataframe</span></span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a><span class="co">    feature: dataframe column</span></span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a><span class="co">    figsize: size of figure (default (12,7))</span></span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a><span class="co">    kde: whether to show the density curve (default False)</span></span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a><span class="co">    bins: number of bins for histogram (default None)</span></span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb26-14"><a href="#cb26-14" aria-hidden="true" tabindex="-1"></a>    f2, (ax_box2, ax_hist2) <span class="op">=</span> plt.subplots(</span>
+<span id="cb26-15"><a href="#cb26-15" aria-hidden="true" tabindex="-1"></a>        nrows<span class="op">=</span><span class="dv">2</span>,  <span class="co"># Number of rows of the subplot grid= 2</span></span>
+<span id="cb26-16"><a href="#cb26-16" aria-hidden="true" tabindex="-1"></a>        sharex<span class="op">=</span><span class="va">True</span>,  <span class="co"># x-axis will be shared among all subplots</span></span>
+<span id="cb26-17"><a href="#cb26-17" aria-hidden="true" tabindex="-1"></a>        gridspec_kw<span class="op">=</span>{<span class="st">&quot;height_ratios&quot;</span>: (<span class="fl">0.25</span>, <span class="fl">0.75</span>)},</span>
+<span id="cb26-18"><a href="#cb26-18" aria-hidden="true" tabindex="-1"></a>        figsize<span class="op">=</span>figsize,</span>
+<span id="cb26-19"><a href="#cb26-19" aria-hidden="true" tabindex="-1"></a>    )  <span class="co"># creating the 2 subplots</span></span>
+<span id="cb26-20"><a href="#cb26-20" aria-hidden="true" tabindex="-1"></a>    sns.boxplot(</span>
+<span id="cb26-21"><a href="#cb26-21" aria-hidden="true" tabindex="-1"></a>        data<span class="op">=</span>data, x<span class="op">=</span>feature, ax<span class="op">=</span>ax_box2, showmeans<span class="op">=</span><span class="va">True</span>, color<span class="op">=</span><span class="st">&quot;violet&quot;</span></span>
+<span id="cb26-22"><a href="#cb26-22" aria-hidden="true" tabindex="-1"></a>    )  <span class="co"># boxplot will be created and a star will indicate the mean value of the column</span></span>
+<span id="cb26-23"><a href="#cb26-23" aria-hidden="true" tabindex="-1"></a>    sns.histplot(</span>
+<span id="cb26-24"><a href="#cb26-24" aria-hidden="true" tabindex="-1"></a>        data<span class="op">=</span>data, x<span class="op">=</span>feature, kde<span class="op">=</span>kde, ax<span class="op">=</span>ax_hist2, bins<span class="op">=</span>bins, palette<span class="op">=</span><span class="st">&quot;winter&quot;</span></span>
+<span id="cb26-25"><a href="#cb26-25" aria-hidden="true" tabindex="-1"></a>    ) <span class="cf">if</span> bins <span class="cf">else</span> sns.histplot(</span>
+<span id="cb26-26"><a href="#cb26-26" aria-hidden="true" tabindex="-1"></a>        data<span class="op">=</span>data, x<span class="op">=</span>feature, kde<span class="op">=</span>kde, ax<span class="op">=</span>ax_hist2</span>
+<span id="cb26-27"><a href="#cb26-27" aria-hidden="true" tabindex="-1"></a>    )  <span class="co"># For histogram</span></span>
+<span id="cb26-28"><a href="#cb26-28" aria-hidden="true" tabindex="-1"></a>    ax_hist2.axvline(</span>
+<span id="cb26-29"><a href="#cb26-29" aria-hidden="true" tabindex="-1"></a>        data[feature].mean(), color<span class="op">=</span><span class="st">&quot;green&quot;</span>, linestyle<span class="op">=</span><span class="st">&quot;--&quot;</span></span>
+<span id="cb26-30"><a href="#cb26-30" aria-hidden="true" tabindex="-1"></a>    )  <span class="co"># Add mean to the histogram</span></span>
+<span id="cb26-31"><a href="#cb26-31" aria-hidden="true" tabindex="-1"></a>    ax_hist2.axvline(</span>
+<span id="cb26-32"><a href="#cb26-32" aria-hidden="true" tabindex="-1"></a>        data[feature].median(), color<span class="op">=</span><span class="st">&quot;black&quot;</span>, linestyle<span class="op">=</span><span class="st">&quot;-&quot;</span></span>
+<span id="cb26-33"><a href="#cb26-33" aria-hidden="true" tabindex="-1"></a>    )  <span class="co"># Add median to the histogram</span></span></code></pre></div>
+</div>
+<section id="time-spent-on-the-page" class="cell markdown" id="M1MZuptcN5gy">
+<h4>Time spent on the page</h4>
+</section>
+<div class="cell code" data-execution_count="18" data-colab="{&quot;height&quot;:558,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="SkqQII6ZNJ17" data-outputId="dc0c846e-5189-411a-ca23-34d663e1acbe">
+<div class="sourceCode" id="cb27"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>histogram_boxplot(df,<span class="st">&quot;time_spent_on_the_page&quot;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_e3d1cb61085b48628341807a68546dc8/fe8593c644da28c9a893aeb8ca9dd4a9ac549f53.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="969NLf2QNd6P">
+<ul>
+<li>The time spent on the page looks to have a fairly normal distribution.</li>
+<li>There are no outliers in this column.</li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="19">
+<div class="sourceCode" id="cb28"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># function to create labeled barplots</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> labeled_barplot(data, feature, perc<span class="op">=</span><span class="va">False</span>, n<span class="op">=</span><span class="va">None</span>):</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a><span class="co">    Barplot with percentage at the top</span></span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a><span class="co">    data: dataframe</span></span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a><span class="co">    feature: dataframe column</span></span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a><span class="co">    perc: whether to display percentages instead of count (default is False)</span></span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a><span class="co">    n: displays the top n category levels (default is None, i.e., display all levels)</span></span>
+<span id="cb28-12"><a href="#cb28-12" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb28-13"><a href="#cb28-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a>    total <span class="op">=</span> <span class="bu">len</span>(data[feature])  <span class="co"># length of the column</span></span>
+<span id="cb28-15"><a href="#cb28-15" aria-hidden="true" tabindex="-1"></a>    count <span class="op">=</span> data[feature].nunique()</span>
+<span id="cb28-16"><a href="#cb28-16" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> n <span class="kw">is</span> <span class="va">None</span>:</span>
+<span id="cb28-17"><a href="#cb28-17" aria-hidden="true" tabindex="-1"></a>        plt.figure(figsize<span class="op">=</span>(count <span class="op">+</span> <span class="dv">1</span>, <span class="dv">5</span>))</span>
+<span id="cb28-18"><a href="#cb28-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb28-19"><a href="#cb28-19" aria-hidden="true" tabindex="-1"></a>        plt.figure(figsize<span class="op">=</span>(n <span class="op">+</span> <span class="dv">1</span>, <span class="dv">5</span>))</span>
+<span id="cb28-20"><a href="#cb28-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-21"><a href="#cb28-21" aria-hidden="true" tabindex="-1"></a>    plt.xticks(rotation<span class="op">=</span><span class="dv">90</span>, fontsize<span class="op">=</span><span class="dv">15</span>)</span>
+<span id="cb28-22"><a href="#cb28-22" aria-hidden="true" tabindex="-1"></a>    ax <span class="op">=</span> sns.countplot(data<span class="op">=</span>data, x<span class="op">=</span>feature, palette<span class="op">=</span><span class="st">&quot;Paired&quot;</span>, order<span class="op">=</span>data[feature].value_counts().index[:n].sort_values())</span>
+<span id="cb28-23"><a href="#cb28-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-24"><a href="#cb28-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> p <span class="kw">in</span> ax.patches:</span>
+<span id="cb28-25"><a href="#cb28-25" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> perc <span class="op">==</span> <span class="va">True</span>:</span>
+<span id="cb28-26"><a href="#cb28-26" aria-hidden="true" tabindex="-1"></a>            label <span class="op">=</span> <span class="st">&quot;</span><span class="sc">{:.1f}</span><span class="st">%&quot;</span>.<span class="bu">format</span>(<span class="dv">100</span> <span class="op">*</span> p.get_height() <span class="op">/</span> total)  <span class="co"># percentage of each class of the category</span></span>
+<span id="cb28-27"><a href="#cb28-27" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb28-28"><a href="#cb28-28" aria-hidden="true" tabindex="-1"></a>            label <span class="op">=</span> p.get_height()  <span class="co"># count of each level of the category</span></span>
+<span id="cb28-29"><a href="#cb28-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-30"><a href="#cb28-30" aria-hidden="true" tabindex="-1"></a>        x <span class="op">=</span> p.get_x() <span class="op">+</span> p.get_width() <span class="op">/</span> <span class="dv">2</span>  <span class="co"># width of the plot</span></span>
+<span id="cb28-31"><a href="#cb28-31" aria-hidden="true" tabindex="-1"></a>        y <span class="op">=</span> p.get_height()      <span class="co"># height of the plot</span></span>
+<span id="cb28-32"><a href="#cb28-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-33"><a href="#cb28-33" aria-hidden="true" tabindex="-1"></a>        ax.annotate(label, (x, y), ha<span class="op">=</span><span class="st">&quot;center&quot;</span>, va<span class="op">=</span><span class="st">&quot;center&quot;</span>, size<span class="op">=</span><span class="dv">12</span>, xytext<span class="op">=</span>(<span class="dv">0</span>, <span class="dv">5</span>), textcoords<span class="op">=</span><span class="st">&quot;offset points&quot;</span>)  <span class="co"># annotate the percentage</span></span>
+<span id="cb28-34"><a href="#cb28-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-35"><a href="#cb28-35" aria-hidden="true" tabindex="-1"></a>    plt.show()  <span class="co"># show the plot</span></span></code></pre></div>
+</div>
+<section id="group" class="cell markdown" id="u5PXu0liOB-1">
+<h4>Group</h4>
+</section>
+<div class="cell code" data-execution_count="20">
+<div class="sourceCode" id="cb29"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>labeled_barplot(df,<span class="st">&#39;group&#39;</span>,perc <span class="op">=</span> <span class="va">True</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_e3d1cb61085b48628341807a68546dc8/0d9f30d465621a117b0fa77aa6ed8c3d52e0e66a.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="iu4kyhN9OT5F">
+<ul>
+<li>The distribution of observations across groups are the same.</li>
+</ul>
+</div>
+<section id="landing-page" class="cell markdown" id="bBleYenwOXgm">
+<h4>Landing page</h4>
+</section>
+<div class="cell code" data-execution_count="21">
+<div class="sourceCode" id="cb30"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>labeled_barplot(df,<span class="st">&#39;landing_page&#39;</span>,perc<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_e3d1cb61085b48628341807a68546dc8/793754b25e2a79131dde82a8d3b09379beae4813.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="YtilQ1V_Omm-">
+<ul>
+<li>The distribution of observations across the two landing pages are same.</li>
+</ul>
+</div>
+<section id="converted" class="cell markdown" id="7Iq5zEX_OrCC">
+<h4>Converted</h4>
+</section>
+<div class="cell code" data-execution_count="22">
+<div class="sourceCode" id="cb31"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>labeled_barplot(df,<span class="st">&#39;converted&#39;</span>,perc<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_e3d1cb61085b48628341807a68546dc8/b71d2bcb9007467fbf562bcd79fc0ebafcaa7735.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="X6qfwlmyO7U3">
+<ul>
+<li>54% of the users get converted after visiting the landing page.</li>
+<li>46% of the users do not get converted after visiting the landing page.</li>
+</ul>
+</div>
+<section id="preferred-language" class="cell markdown" id="jOPoPOMxPJdF">
+<h4>Preferred language</h4>
+</section>
+<div class="cell code" data-execution_count="23">
+<div class="sourceCode" id="cb32"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>labeled_barplot(df,<span class="st">&#39;language_preferred&#39;</span>,perc<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_e3d1cb61085b48628341807a68546dc8/69d39caabc14de18b59ec2196ebb5ce9dec3d0eb.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="BuSfDQnPPYYR">
+<ul>
+<li>The distribution of observations across various preferred languages is fairly uniform.</li>
+</ul>
+</div>
+<section id="bivariate-analysis" class="cell markdown" id="ZhVuH6lCPui8">
+<h3>Bivariate Analysis</h3>
+</section>
+<section id="landing-page-vs-time-spent-on-the-page" class="cell markdown" id="u0GpnHwJT7BL">
+<h4>Landing page vs Time spent on the page</h4>
+</section>
+<div class="cell code" data-execution_count="24">
+<div class="sourceCode" id="cb33"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">6</span>))</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>sns.boxplot(data<span class="op">=</span>df,x<span class="op">=</span><span class="st">&#39;landing_page&#39;</span>,y<span class="op">=</span><span class="st">&#39;time_spent_on_the_page&#39;</span>)</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_e3d1cb61085b48628341807a68546dc8/5f1e495f8146f4ec455ddc397474ca298062b781.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="dMoRB8KvWbi4">
+<ul>
+<li>Overall, the time spent on the new page seems to be greater than the time spent on the old page.</li>
+</ul>
+</div>
+<section id="conversion-status-vs-time-spent-on-the-page" class="cell markdown" id="lW5_KzOPVeEg">
+<h4>Conversion status vs Time spent on the page</h4>
+</section>
+<div class="cell code" data-execution_count="25">
+<div class="sourceCode" id="cb34"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">6</span>))</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>sns.boxplot(data<span class="op">=</span>df,x<span class="op">=</span><span class="st">&#39;converted&#39;</span>,y<span class="op">=</span><span class="st">&#39;time_spent_on_the_page&#39;</span>)</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_e3d1cb61085b48628341807a68546dc8/424633fe631d6f5429b9fd50daa1caca4acd1901.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="rzMHix_UWqSh">
+<ul>
+<li>Overall, the users who get converted seem to spend more time on the page.</li>
+</ul>
+</div>
+<section id="preferred-language-vs-time-spent-on-the-page" class="cell markdown" id="uEycP66dVvt9">
+<h4>Preferred language vs Time spent on the page</h4>
+</section>
+<div class="cell code" data-execution_count="26" data-colab="{&quot;height&quot;:850,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="__cxc_olV3K-" data-outputId="58431f98-932b-45c4-a58b-e57bc073f107" data-scrolled="false">
+<div class="sourceCode" id="cb35"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">8</span>))</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>sns.boxplot(x <span class="op">=</span> <span class="st">&#39;language_preferred&#39;</span>, y <span class="op">=</span> <span class="st">&#39;time_spent_on_the_page&#39;</span>, showmeans <span class="op">=</span> <span class="va">True</span>, data <span class="op">=</span> df)</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_e3d1cb61085b48628341807a68546dc8/86f8c5263d29d54a4a6f39c0cc800a7781681d5a.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<ul>
+<li>The median time spent by the different language users are approximately equal.</li>
+<li>The mean time spent by the different language users are approximately equal.</li>
+</ul>
+</div>
+<section id="2-do-the-users-spend-more-time-on-the-new-landing-page-than-the-existing-landing-page" class="cell markdown" id="eUHR4RKcS-1n">
+<h2>2. Do the users spend more time on the new landing page than the existing landing page?</h2>
+</section>
+<div class="cell code" data-execution_count="27" data-colab="{&quot;height&quot;:389,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="w5uw-NhRidnJ" data-outputId="e29f61f3-ce1d-4bf8-8464-d4d8243630e6">
+<div class="sourceCode" id="cb36"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co"># visual analysis of the time spent on the new page</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="co"># and the time spent on the old page</span></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">6</span>))</span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>sns.boxplot(x <span class="op">=</span> <span class="st">&#39;landing_page&#39;</span>, y <span class="op">=</span> <span class="st">&#39;time_spent_on_the_page&#39;</span>, data <span class="op">=</span> df)</span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_e3d1cb61085b48628341807a68546dc8/4f37a8f098497947268263bb43906eb25179d07d.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="aoBTMWdoi4OS">
+<p>By observing the above plot, we can say that overall people spent more times on the new page than the old age. Let's perform a hypothesis test to see if there are enough statistical evidence to support our observation.</p>
+</div>
+<section id="step-1-define-the-null-and-alternative-hypotheses" class="cell markdown" id="YFZ5crNSi5U1">
+<h2>Step 1: Define the null and alternative hypotheses</h2>
+</section>
+<div class="cell markdown" id="Kw8CF404i8eF">
+<p><span class="math inline"><em>H</em><sub>0</sub>:</span> The mean time spent by the users on the new page is equal to the mean time spent by the users on the old page.</p>
+<p><span class="math inline"><em>H</em><sub><em>a</em></sub>:</span> The mean time spent by the users on the new page is greater than the mean time spent by the users on the old page.</p>
+<p>Let <span class="math inline"><em>μ</em><sub>1</sub></span> and <span class="math inline"><em>μ</em><sub>2</sub></span> be the mean time spent by the users on the new and old page respectively.</p>
+<p>Mathematically, the above formulated hypotheses can be written as:</p>
+<p><span class="math inline"><em>H</em><sub>0</sub> : <em>μ</em><sub>1</sub> = <em>μ</em><sub>2</sub></span></p>
+<p><span class="math inline"><em>H</em><sub><em>a</em></sub> : <em>μ</em><sub>1</sub> &gt; <em>μ</em><sub>2</sub></span></p>
+</div>
+<section id="step-2-select-appropriate-test" class="cell markdown" id="g6hywdn5jBnU">
+<h2>Step 2: Select Appropriate test</h2>
+</section>
+<div class="cell markdown" id="TYnC6dvljEv7">
+<p>This is a one-tailed test concerning two population means from two independent populations. As the population standard deviations are unknown, the two sample independent t-test will be the appropriate test for this problem.</p>
+</div>
+<section id="step-3-decide-the-significance-level" class="cell markdown" id="nTSD1L19jLCF">
+<h2>Step 3: Decide the significance level</h2>
+</section>
+<div class="cell markdown" id="m7s-JSnijNWQ">
+<p>As given in the problem statement, we select α = 0.05.</p>
+</div>
+<section id="step-4-collect-and-prepare-data" class="cell markdown" id="KGvA4D8djPxk">
+<h2>Step 4: Collect and prepare data</h2>
+</section>
+<div class="cell code" data-execution_count="28" id="o7Yavz0mjToU">
+<div class="sourceCode" id="cb37"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>time_spent_new <span class="op">=</span> df[df[<span class="st">&#39;landing_page&#39;</span>] <span class="op">==</span> <span class="st">&#39;new&#39;</span>][<span class="st">&#39;time_spent_on_the_page&#39;</span>]</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>time_spent_old <span class="op">=</span> df[df[<span class="st">&#39;landing_page&#39;</span>] <span class="op">==</span> <span class="st">&#39;old&#39;</span>][<span class="st">&#39;time_spent_on_the_page&#39;</span>]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="29" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="QivaDmDsS-N1" data-outputId="e2a1c5f6-91c4-4a16-fe7e-0389bf46ff62">
+<div class="sourceCode" id="cb38"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;The sample standard deviation of the time spent on the new page is:&#39;</span>, <span class="bu">round</span>(time_spent_new.std(),<span class="dv">2</span>))</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;The sample standard deviation of the time spent on the new page is:&#39;</span>, <span class="bu">round</span>(time_spent_old.std(),<span class="dv">2</span>))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The sample standard deviation of the time spent on the new page is: 1.82
+The sample standard deviation of the time spent on the new page is: 2.58
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="sOAf6WyEpQ44">
+<p>As the sample standard deviations are different, the population standard deviations may be assumed to be different.</p>
+</div>
+<section id="step-5-calculate-the-p-value" class="cell markdown" id="xQeZl8HnpdkX">
+<h2>Step 5: Calculate the p-value</h2>
+</section>
+<div class="cell code" data-execution_count="30" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="2xuXP2lTpgXk" data-outputId="5d1d41cc-2a54-4b83-c265-5d9489b55468">
+<div class="sourceCode" id="cb40"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="co"># import the required function</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.stats <span class="im">import</span> ttest_ind</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a><span class="co"># find the p-value</span></span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>test_stat, p_value <span class="op">=</span> ttest_ind(time_spent_new, time_spent_old, equal_var <span class="op">=</span> <span class="va">False</span>, alternative <span class="op">=</span> <span class="st">&#39;greater&#39;</span>)</span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;The p-value is&#39;</span>, p_value)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The p-value is 0.0001392381225166549
+</code></pre>
+</div>
+</div>
+<section id="step-6-compare-the-p-value-with-alpha" class="cell markdown" id="iWCpBC5UqSi6">
+<h2>Step 6: Compare the p-value with <span class="math inline"><em>α</em></span></h2>
+</section>
+<div class="cell code" data-execution_count="31" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="J9764LVtqTUh" data-outputId="a06c5f50-d345-4c68-e960-a6e25d58b94c">
+<div class="sourceCode" id="cb42"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="co"># print the conclusion based on p-value</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> p_value <span class="op">&lt;</span> <span class="fl">0.05</span>:</span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&#39;As the p-value </span><span class="sc">{</span>p_value<span class="sc">}</span><span class="ss"> is less than the level of significance, we reject the null hypothesis.&#39;</span>)</span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&#39;As the p-value </span><span class="sc">{</span>p_value<span class="sc">}</span><span class="ss"> is greater than the level of significance, we fail to reject the null hypothesis.&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>As the p-value 0.0001392381225166549 is less than the level of significance, we reject the null hypothesis.
+</code></pre>
+</div>
+</div>
+<section id="step-7-draw-inference" class="cell markdown" id="9wLO61tvqV3L">
+<h2>Step 7: Draw inference</h2>
+</section>
+<div class="cell markdown" id="-E87MFG6qdGx">
+<p>Since the p-value is less than the 5% significance level, we reject the null hypothesis. Hence, we have enough statistical evidence to say that the mean time spent by the users on the new page is greater than the mean time spent by the users on the old page.</p>
+</div>
+<section id="3-is-the-conversion-rate-the-proportion-of-users-who-visit-the-landing-page-and-get-converted-for-the-new-page-greater-than-the-conversion-rate-for-the-old-page" class="cell markdown" id="ByMi2Yd5TGS_">
+<h2>3. Is the conversion rate (the proportion of users who visit the landing page and get converted) for the new page greater than the conversion rate for the old page?</h2>
+</section>
+<div class="cell code" data-execution_count="32" data-colab="{&quot;height&quot;:650,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="kawWbn9mq5Iv" data-outputId="beefa8bc-b7b1-469b-f03e-755573843d53">
+<div class="sourceCode" id="cb44"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="co"># visual analysis of the conversion rate for the new page and the conversion rate for the old page</span></span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>pd.crosstab(df[<span class="st">&#39;converted&#39;</span>],df[<span class="st">&#39;landing_page&#39;</span>],normalize<span class="op">=</span><span class="st">&#39;index&#39;</span>).plot(kind<span class="op">=</span><span class="st">&quot;bar&quot;</span>, figsize<span class="op">=</span>(<span class="dv">6</span>,<span class="dv">8</span>),stacked<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_e3d1cb61085b48628341807a68546dc8/016f557ed61885e299987f42bcef93489aeaf26b.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="aV8ruqGXXc_4">
+<p>By observing the above plot, we can say that overall the number of users who get converted is more for the new page than the old page. Let's perform a hypothesis test to see if there is enough statistical evidence to say that the conversion rate for the new page is greater than the old page.</p>
+</div>
+<section id="step-1-define-the-null-and-alternative-hypotheses" class="cell markdown" id="3ITqSVzLq3Dr">
+<h2>Step 1: Define the null and alternative hypotheses</h2>
+</section>
+<div class="cell markdown" id="2mLWHORSq5wO">
+<p><span class="math inline"><em>H</em><sub>0</sub>:</span> The conversion rate for the new page is equal to the conversion rate for the old page.</p>
+<p><span class="math inline"><em>H</em><sub><em>a</em></sub>:</span> The conversion rate for the new page is greater than the conversion rate for the old page.</p>
+<p>Let <span class="math inline"><em>p</em><sub>1</sub></span> and <span class="math inline"><em>p</em><sub>2</sub></span> be the conversion rate for the new and old page respectively.</p>
+<p>Mathematically, the above formulated hypotheses can be written as:</p>
+<p><span class="math inline"><em>H</em><sub>0</sub> : <em>p</em><sub>1</sub> = <em>p</em><sub>2</sub></span></p>
+<p><span class="math inline"><em>H</em><sub><em>a</em></sub> : <em>p</em><sub>1</sub> &gt; <em>p</em><sub>2</sub></span></p>
+</div>
+<section id="step-2-select-appropriate-test" class="cell markdown" id="nB4clAqOq7yS">
+<h2>Step 2: Select Appropriate test</h2>
+</section>
+<div class="cell markdown" id="9od66KJlq_AO">
+<p>This is a one-tailed test concerning two population proportions from two independent populations. Hence, the two proportion z-test will be the appropriate test for this problem.</p>
+</div>
+<section id="step-3-decide-the-significance-level" class="cell markdown" id="rNOl-HdvrB0L">
+<h2>Step 3: Decide the significance level</h2>
+</section>
+<div class="cell markdown" id="jrUtEJB1rDsz">
+<p>As given in the problem statement, we select α = 0.05.</p>
+</div>
+<section id="step-4-collect-and-prepare-data" class="cell markdown" id="tQFN0Z_SrFxh">
+<h2>Step 4: Collect and prepare data</h2>
+</section>
+<div class="cell code" data-execution_count="33" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="dEs9-0wurO1c" data-outputId="5878a8ed-4b86-4b9f-cda5-ee4257e28c8f">
+<div class="sourceCode" id="cb45"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>new_converted <span class="op">=</span> df[df[<span class="st">&#39;group&#39;</span>] <span class="op">==</span> <span class="st">&#39;treatment&#39;</span>][<span class="st">&#39;converted&#39;</span>].value_counts()[<span class="st">&#39;yes&#39;</span>]</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>old_converted <span class="op">=</span> df[df[<span class="st">&#39;group&#39;</span>] <span class="op">==</span> <span class="st">&#39;control&#39;</span>][<span class="st">&#39;converted&#39;</span>].value_counts()[<span class="st">&#39;yes&#39;</span>]</span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;The numbers of converted users for the new and old pages are </span><span class="sc">{0}</span><span class="st"> and </span><span class="sc">{1}</span><span class="st"> respectively&#39;</span>.<span class="bu">format</span>(new_converted, old_converted))</span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a>n_control <span class="op">=</span> df.group.value_counts()[<span class="st">&#39;control&#39;</span>] <span class="co"># number of users in the control group</span></span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a>n_treatment <span class="op">=</span> df.group.value_counts()[<span class="st">&#39;treatment&#39;</span>] <span class="co">#number of users in the treatment group</span></span>
+<span id="cb45-6"><a href="#cb45-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;The numbers of users served the new and old pages are </span><span class="sc">{0}</span><span class="st"> and </span><span class="sc">{1}</span><span class="st"> respectively&#39;</span>.<span class="bu">format</span>(n_control, n_treatment ))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The numbers of converted users for the new and old pages are 33 and 21 respectively
+The numbers of users served the new and old pages are 50 and 50 respectively
+</code></pre>
+</div>
+</div>
+<section id="step-5-calculate-the-p-value" class="cell markdown" id="GOy1LU6IrQXR">
+<h2>Step 5: Calculate the p-value</h2>
+</section>
+<div class="cell code" data-execution_count="34" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="OjCPM5vIrSax" data-outputId="9093af0b-e5c9-4878-e768-15d1db1ec406">
+<div class="sourceCode" id="cb47"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="co"># import the required function</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> statsmodels.stats.proportion <span class="im">import</span> proportions_ztest</span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-4"><a href="#cb47-4" aria-hidden="true" tabindex="-1"></a><span class="co"># find the p-value</span></span>
+<span id="cb47-5"><a href="#cb47-5" aria-hidden="true" tabindex="-1"></a>test_stat, p_value <span class="op">=</span> proportions_ztest([new_converted, old_converted] , [n_treatment, n_control], alternative <span class="op">=</span> <span class="st">&#39;larger&#39;</span>)</span>
+<span id="cb47-6"><a href="#cb47-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;The p-value is&#39;</span>, p_value)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The p-value is 0.008026308204056278
+</code></pre>
+</div>
+</div>
+<section id="step-6-compare-the-p-value-with-alpha" class="cell markdown" id="n9Nr8KoArbNA">
+<h2>Step 6: Compare the p-value with <span class="math inline"><em>α</em></span></h2>
+</section>
+<div class="cell code" data-execution_count="35" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="WlCPEPCvreZS" data-outputId="5919a7ce-2554-4129-a8c1-2d808839c27f">
+<div class="sourceCode" id="cb49"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="co"># print the conclusion based on p-value</span></span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> p_value <span class="op">&lt;</span> <span class="fl">0.05</span>:</span>
+<span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&#39;As the p-value </span><span class="sc">{</span>p_value<span class="sc">}</span><span class="ss"> is less than the level of significance, we reject the null hypothesis.&#39;</span>)</span>
+<span id="cb49-4"><a href="#cb49-4" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb49-5"><a href="#cb49-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&#39;As the p-value </span><span class="sc">{</span>p_value<span class="sc">}</span><span class="ss"> is greater than the level of significance, we fail to reject the null hypothesis.&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>As the p-value 0.008026308204056278 is less than the level of significance, we reject the null hypothesis.
+</code></pre>
+</div>
+</div>
+<section id="step-7-draw-inference" class="cell markdown" id="OlN5l8s-rgbs">
+<h2>Step 7: Draw inference</h2>
+</section>
+<div class="cell markdown" id="3bErES7hrlDk">
+<p>Since the p-value is less than the 5% significance level, we reject the null hypothesis. Hence, we have enough statistical evidence to say that the conversion rate for the new page is greater than the conversion rate for the old page.</p>
+</div>
+<section id="4-is-the-conversion-and-preferred-language-are-independent-or-related" class="cell markdown" id="E_zGye-Kbbie">
+<h2>4. Is the conversion and preferred language are independent or related?</h2>
+</section>
+<div class="cell code" data-execution_count="36" data-colab="{&quot;height&quot;:650,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="Jo4danLzbk3c" data-outputId="f0a00c96-8366-476c-c2e8-459904a88586">
+<div class="sourceCode" id="cb51"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="co"># visual analysis of the dependency between conversion status and preferred langauge</span></span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>pd.crosstab(df[<span class="st">&#39;converted&#39;</span>],df[<span class="st">&#39;language_preferred&#39;</span>],normalize<span class="op">=</span><span class="st">&#39;index&#39;</span>).plot(kind<span class="op">=</span><span class="st">&quot;bar&quot;</span>, figsize<span class="op">=</span>(<span class="dv">6</span>,<span class="dv">8</span>),</span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>                 stacked<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_e3d1cb61085b48628341807a68546dc8/f79f19c004b8384010ec74e74eb49c1a1352c8a9.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="W5anW_cKYKLU">
+<p>The distribution of conversion status for English and French language users is not uniformly distributed. Let's perform the hypothesis test to check whether we have enough statistical evidence to say that the conversion status and preferred language are independent or not.</p>
+</div>
+<section id="step-1-define-the-null-and-alternative-hypotheses" class="cell markdown" id="8byrkc6hrvf-">
+<h2>Step 1: Define the null and alternative hypotheses</h2>
+</section>
+<div class="cell markdown" id="LSGu3A_MrxPK">
+<p><span class="math inline"><em>H</em><sub>0</sub>:</span> The converted status is independent of the preferred language.</p>
+<p><span class="math inline"><em>H</em><sub><em>a</em></sub>:</span> The converted status is not independent of the preferred language.</p>
+</div>
+<section id="step-2-select-appropriate-test" class="cell markdown" id="Rwi5vIQdry3W">
+<h2>Step 2: Select Appropriate test</h2>
+</section>
+<div class="cell markdown" id="LJ8IC5lrr0qT">
+<p>This is a problem of Chi-square test of independence, concerning the two independent categorical variables, converted status and preferred language.</p>
+</div>
+<section id="step-3-decide-the-significance-level" class="cell markdown" id="H5Qyv0Mgr2Yb">
+<h2>Step 3: Decide the significance level</h2>
+</section>
+<div class="cell markdown" id="d5HLJ2KGr4DY">
+<p>As given in the problem statement, we select α = 0.05.</p>
+</div>
+<section id="step-4-collect-and-prepare-data" class="cell markdown" id="anSFGxlCr514">
+<h2>Step 4: Collect and prepare data</h2>
+</section>
+<div class="cell code" data-execution_count="37" id="dRFi4joGr8lU">
+<div class="sourceCode" id="cb52"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create the contingency table showing the distribution of two categorical variables</span></span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a>contingency_table <span class="op">=</span> pd.crosstab(df[<span class="st">&#39;converted&#39;</span>], df[<span class="st">&#39;language_preferred&#39;</span>])</span>
+<span id="cb52-3"><a href="#cb52-3" aria-hidden="true" tabindex="-1"></a>contingency_table</span></code></pre></div>
+<div class="output execute_result" data-execution_count="37">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>language_preferred</th>
+      <th>English</th>
+      <th>French</th>
+      <th>Spanish</th>
+    </tr>
+    <tr>
+      <th>converted</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>no</th>
+      <td>11</td>
+      <td>19</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>yes</th>
+      <td>21</td>
+      <td>15</td>
+      <td>18</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<section id="step-5-calculate-the-p-value" class="cell markdown" id="7e9wGX3-r-vc">
+<h2>Step 5: Calculate the p-value</h2>
+</section>
+<div class="cell code" data-execution_count="38" id="Er6kGJkYsAlq">
+<div class="sourceCode" id="cb53"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="co">#import the required function</span></span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.stats <span class="im">import</span> chi2_contingency</span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a><span class="co"># use chi2_contingency() to find the p-value</span></span>
+<span id="cb53-4"><a href="#cb53-4" aria-hidden="true" tabindex="-1"></a>chi_2, p_value, dof, exp_freq <span class="op">=</span> chi2_contingency(contingency_table)</span>
+<span id="cb53-5"><a href="#cb53-5" aria-hidden="true" tabindex="-1"></a><span class="co"># print the p-value</span></span>
+<span id="cb53-6"><a href="#cb53-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;The p-value is&#39;</span>, p_value)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The p-value is 0.21298887487543447
+</code></pre>
+</div>
+</div>
+<section id="step-6-compare-the-p-value-with-alpha" class="cell markdown" id="gnskcscbsCK7">
+<h2>Step 6: Compare the p-value with <span class="math inline"><em>α</em></span></h2>
+</section>
+<div class="cell code" data-execution_count="39" id="TAWEUmG7sEJN">
+<div class="sourceCode" id="cb55"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="co"># print the conclusion based on p-value</span></span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> p_value <span class="op">&lt;</span> <span class="fl">0.05</span>:</span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&#39;As the p-value </span><span class="sc">{</span>p_value<span class="sc">}</span><span class="ss"> is less than the level of significance, we reject the null hypothesis.&#39;</span>)</span>
+<span id="cb55-4"><a href="#cb55-4" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb55-5"><a href="#cb55-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&#39;As the p-value </span><span class="sc">{</span>p_value<span class="sc">}</span><span class="ss"> is greater than the level of significance, we fail to reject the null hypothesis.&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>As the p-value 0.21298887487543447 is greater than the level of significance, we fail to reject the null hypothesis.
+</code></pre>
+</div>
+</div>
+<section id="step-7-draw-inference" class="cell markdown" id="gBGXeq2HsGXF">
+<h2>Step 7: Draw inference</h2>
+</section>
+<div class="cell markdown" id="JZdMD0HosLg4">
+<p>Since the p-value is greater than the 5% significance level, we fail to reject the null hypothesis. Hence, we do not have enough statistical evidence to say that the converted status depends on the preferred language.</p>
+</div>
+<section id="5-is-the-time-spent-on-the-new-page-same-for-the-different-language-users" class="cell markdown" id="FceYNDDsdfIC">
+<h2>5. Is the time spent on the new page same for the different language users?</h2>
+</section>
+<div class="cell code" data-execution_count="40" data-colab="{&quot;height&quot;:389,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="u_wWeE2vsXSD" data-outputId="0221422b-b069-404e-fd17-c83597c343cd" data-scrolled="false">
+<div class="sourceCode" id="cb57"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="co"># visual analysis of the mean time spent on the new page for different language users</span></span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">8</span>))</span>
+<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a><span class="co"># create a new DataFrame for users served the new page</span></span>
+<span id="cb57-4"><a href="#cb57-4" aria-hidden="true" tabindex="-1"></a>df_new <span class="op">=</span> df[df[<span class="st">&#39;landing_page&#39;</span>] <span class="op">==</span> <span class="st">&#39;new&#39;</span>]</span>
+<span id="cb57-5"><a href="#cb57-5" aria-hidden="true" tabindex="-1"></a>sns.boxplot(x <span class="op">=</span> <span class="st">&#39;language_preferred&#39;</span>, y <span class="op">=</span> <span class="st">&#39;time_spent_on_the_page&#39;</span>, showmeans <span class="op">=</span> <span class="va">True</span>, data <span class="op">=</span> df_new)</span>
+<span id="cb57-6"><a href="#cb57-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_e3d1cb61085b48628341807a68546dc8/c359ad189f34bd14d262fdf227ad43e6df772088.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="41" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="kocCWAB4sZyZ" data-outputId="1d9e10cb-a04b-4860-a76c-524b431bffea">
+<div class="sourceCode" id="cb58"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Checking the mean time spent on the new page for different language users</span></span>
+<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a>df_new.groupby([<span class="st">&#39;language_preferred&#39;</span>])[<span class="st">&#39;time_spent_on_the_page&#39;</span>].mean()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="41">
+<pre><code>language_preferred
+English    6.663750
+French     6.196471
+Spanish    5.835294
+Name: time_spent_on_the_page, dtype: float64</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="VXtWxHnQsagq">
+<p>The mean time spent on the new page by English users is a bit higher than the mean time spent by French and Spanish users, but we need to test if this difference is statistically significant or not.</p>
+</div>
+<section id="step-1-define-the-null-and-alternative-hypotheses" class="cell markdown" id="oVHpZzopsdrs">
+<h2>Step 1: Define the null and alternative hypotheses</h2>
+</section>
+<div class="cell markdown" id="2tjTd9GHsf9D">
+<p><span class="math inline"><em>H</em><sub>0</sub>:</span> The mean times spent on the new page by English, French, and Spanish users are equal.</p>
+<p><span class="math inline"><em>H</em><sub><em>a</em></sub>:</span> At least one of the mean times spent on the new page by English, French, and Spanish users is unequal.</p>
+</div>
+<section id="step-2-select-appropriate-test" class="cell markdown" id="JaJybnB-siq2">
+<h2>Step 2: Select Appropriate test</h2>
+</section>
+<div class="cell markdown" id="9LSNgmm_slop">
+<p>This is a problem, concerning three population means. One-way ANOVA could be the appropriate test here provided normality and equality of variance assumptions are verified.</p>
+<ul>
+<li><p>For testing of normality, Shapiro-Wilk’s test is applied to the response variable.</p></li>
+<li><p>For equality of variance, Levene test is applied to the response variable.</p></li>
+</ul>
+</div>
+<section id="shapiro-wilks-test" class="cell markdown" id="NQo6IcsLsqiM">
+<h3>Shapiro-Wilk’s test</h3>
+<p>We will test the null hypothesis</p>
+<blockquote>
+<p><span class="math inline"><em>H</em><sub>0</sub>:</span> Time spent on the new page follows a normal distribution</p>
+</blockquote>
+<p>against the alternative hypothesis</p>
+<blockquote>
+<p><span class="math inline"><em>H</em><sub><em>a</em></sub>:</span> Time spent on the new page does not follow a normal distribution</p>
+</blockquote>
+</section>
+<div class="cell code" data-execution_count="42" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="AxUUzmZasrM4" data-outputId="46610789-2303-4750-f586-49ba2c2aa070">
+<div class="sourceCode" id="cb60"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Assumption 1: Normality</span></span>
+<span id="cb60-2"><a href="#cb60-2" aria-hidden="true" tabindex="-1"></a><span class="co"># import the required function</span></span>
+<span id="cb60-3"><a href="#cb60-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.stats <span class="im">import</span> shapiro</span>
+<span id="cb60-4"><a href="#cb60-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-5"><a href="#cb60-5" aria-hidden="true" tabindex="-1"></a><span class="co"># find the p-value</span></span>
+<span id="cb60-6"><a href="#cb60-6" aria-hidden="true" tabindex="-1"></a>w, p_value <span class="op">=</span> shapiro(df_new[<span class="st">&#39;time_spent_on_the_page&#39;</span>]) </span>
+<span id="cb60-7"><a href="#cb60-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;The p-value is&#39;</span>, p_value)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The p-value is 0.8040016293525696
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="NpCvOyfustjP">
+<p>Since p-value of the test is very large than the 5% significance level, we fail to reject the null hypothesis that the response follows the normal distribution.</p>
+</div>
+<section id="levenes-test" class="cell markdown" id="6DSOQn2fsvp4">
+<h3>Levene’s test</h3>
+<p>We will test the null hypothesis</p>
+<blockquote>
+<p><span class="math inline"><em>H</em><sub>0</sub></span>: All the population variances are equal</p>
+</blockquote>
+<p>against the alternative hypothesis</p>
+<blockquote>
+<p><span class="math inline"><em>H</em><sub><em>a</em></sub></span>: At least one variance is different from the rest</p>
+</blockquote>
+</section>
+<div class="cell code" data-execution_count="43" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="rmYjwNIBsyJZ" data-outputId="db95cce1-cd3c-4b97-a116-a11f96857654">
+<div class="sourceCode" id="cb62"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Assumption 2: Homogeneity of Variance</span></span>
+<span id="cb62-2"><a href="#cb62-2" aria-hidden="true" tabindex="-1"></a><span class="co">#import the required function</span></span>
+<span id="cb62-3"><a href="#cb62-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.stats <span class="im">import</span> levene</span>
+<span id="cb62-4"><a href="#cb62-4" aria-hidden="true" tabindex="-1"></a>statistic, p_value <span class="op">=</span> levene( df_new[df_new[<span class="st">&#39;language_preferred&#39;</span>]<span class="op">==</span><span class="st">&quot;English&quot;</span>][<span class="st">&#39;time_spent_on_the_page&#39;</span>], </span>
+<span id="cb62-5"><a href="#cb62-5" aria-hidden="true" tabindex="-1"></a>                             df_new[df_new[<span class="st">&#39;language_preferred&#39;</span>]<span class="op">==</span><span class="st">&quot;French&quot;</span>][<span class="st">&#39;time_spent_on_the_page&#39;</span>], </span>
+<span id="cb62-6"><a href="#cb62-6" aria-hidden="true" tabindex="-1"></a>                             df_new[df_new[<span class="st">&#39;language_preferred&#39;</span>]<span class="op">==</span><span class="st">&quot;Spanish&quot;</span>][<span class="st">&#39;time_spent_on_the_page&#39;</span>])</span>
+<span id="cb62-7"><a href="#cb62-7" aria-hidden="true" tabindex="-1"></a><span class="co"># find the p-value</span></span>
+<span id="cb62-8"><a href="#cb62-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;The p-value is&#39;</span>, p_value)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The p-value is 0.46711357711340173
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="1JBkDmBws3Mf">
+<p>Since the p-value is large than the 5% significance level, we fail to reject the null hypothesis of homogeneity of variances.</p>
+</div>
+<section id="step-3-decide-the-significance-level" class="cell markdown" id="_saPvDsEs5Mw">
+<h2>Step 3: Decide the significance level</h2>
+</section>
+<div class="cell markdown" id="1lrcJnkZs7gR">
+<p>As given in the problem statement, we select α = 0.05.</p>
+</div>
+<section id="step-4-collect-and-prepare-data" class="cell markdown" id="2AR1AnjTs72L">
+<h2>Step 4: Collect and prepare data</h2>
+</section>
+<div class="cell code" data-execution_count="44" id="BVbsWADgs54Q">
+<div class="sourceCode" id="cb64"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a>time_spent_English <span class="op">=</span> df_new[df_new[<span class="st">&#39;language_preferred&#39;</span>]<span class="op">==</span><span class="st">&quot;English&quot;</span>][<span class="st">&#39;time_spent_on_the_page&#39;</span>]</span>
+<span id="cb64-2"><a href="#cb64-2" aria-hidden="true" tabindex="-1"></a>time_spent_French <span class="op">=</span> df_new[df_new[<span class="st">&#39;language_preferred&#39;</span>]<span class="op">==</span><span class="st">&quot;French&quot;</span>][<span class="st">&#39;time_spent_on_the_page&#39;</span>]</span>
+<span id="cb64-3"><a href="#cb64-3" aria-hidden="true" tabindex="-1"></a>time_spent_Spanish <span class="op">=</span> df_new[df_new[<span class="st">&#39;language_preferred&#39;</span>]<span class="op">==</span><span class="st">&quot;Spanish&quot;</span>][<span class="st">&#39;time_spent_on_the_page&#39;</span>]</span></code></pre></div>
+</div>
+<section id="step-5-calculate-the-p-value" class="cell markdown" id="hgZgHh-Es_oP">
+<h2>Step 5: Calculate the p-value</h2>
+</section>
+<div class="cell code" data-execution_count="45" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="LG0lNKSOtBoe" data-outputId="eee5e2a7-4bed-4497-f05a-c62477812717">
+<div class="sourceCode" id="cb65"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb65-1"><a href="#cb65-1" aria-hidden="true" tabindex="-1"></a><span class="co"># import the required function</span></span>
+<span id="cb65-2"><a href="#cb65-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.stats <span class="im">import</span> f_oneway</span>
+<span id="cb65-3"><a href="#cb65-3" aria-hidden="true" tabindex="-1"></a><span class="co"># find the p-value</span></span>
+<span id="cb65-4"><a href="#cb65-4" aria-hidden="true" tabindex="-1"></a>test_stat, p_value <span class="op">=</span> f_oneway(time_spent_English, time_spent_French, time_spent_Spanish)</span>
+<span id="cb65-5"><a href="#cb65-5" aria-hidden="true" tabindex="-1"></a><span class="co"># print the p-value</span></span>
+<span id="cb65-6"><a href="#cb65-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;The p-value is&#39;</span>, p_value)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The p-value is 0.43204138694325955
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="46" id="ZNmvCXDbtGDY">
+<div class="sourceCode" id="cb67"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a><span class="co"># print the conclusion based on p-value</span></span>
+<span id="cb67-2"><a href="#cb67-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> p_value <span class="op">&lt;</span> <span class="fl">0.05</span>:</span>
+<span id="cb67-3"><a href="#cb67-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&#39;As the p-value </span><span class="sc">{</span>p_value<span class="sc">}</span><span class="ss"> is less than the level of significance, we reject the null hypothesis.&#39;</span>)</span>
+<span id="cb67-4"><a href="#cb67-4" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb67-5"><a href="#cb67-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&#39;As the p-value </span><span class="sc">{</span>p_value<span class="sc">}</span><span class="ss"> is greater than the level of significance, we fail to reject the null hypothesis.&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>As the p-value 0.43204138694325955 is greater than the level of significance, we fail to reject the null hypothesis.
+</code></pre>
+</div>
+</div>
+<section id="step-7-draw-inference" class="cell markdown" id="lwvUhqTAtJWG">
+<h2>Step 7: Draw inference</h2>
+</section>
+<div class="cell markdown" id="7yrseNmVtNTA">
+<p>Since the p-value is greater than the 5% significance level, we fail to reject the null hypothesis. Hence, we do not have enough statistical evidence to say that the mean times spent on the new page by English, French, and Spanish users differ to any meaningful degree.</p>
+</div>
+<section id="conclusion" class="cell markdown" id="2wW3CxiIY9co">
+<h2>Conclusion</h2>
+<ul>
+<li><p>The users spend more time on the new page.</p></li>
+<li><p>The conversion rate for the new page is greater than the conversion rate of the old page.</p></li>
+<li><p>The conversion status is independent of the preferred language.</p></li>
+<li><p>Based on the conclusions of the hypothesis tests, you can recommend that the news company should use the new landing page to gather more subscribers.</p></li>
+<li><p>The longer a visitor spends on a site, the more likely he/she is to convert. So, the business logic would appear to be: design a page that people spend time in, conversion will follow.</p></li>
+</ul>
+</section>
+</body>
+</html>
